@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+  <name>Content - AiJSlideToggle</name>
+  <author>Abdul Ibad</author>
+  <creationDate>30/10/2009</creationDate>
+  <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+  <authorEmail>abdul.ibad@live.com</authorEmail>
+  <authorUrl>ibad.bebasbelanja.com</authorUrl>
+  <version>1.2</version>
+  <description>AIJSLIDETOGGLE_DESC</description>
+  <params>
+    <param name="@spacer" type="spacer" default="SlideToggle Configuration" label="" description="" />
+    <param name="slidetoggle_slidespeed" type="text" default="400" label="Slide Speed" description="Lower value equals faster slide speed." />
+    <param name="slidetoggle_display" type="radio" default="close" label="Default display" description="">
+		<option value="open">Open</option>
+		<option value="close">Close</option>
+	</param>
+  </params>
+  <files>
+    <filename plugin="aijslidetoggle">aijslidetoggle.php</filename>
+    <filename plugin="aijslidetoggle">plugin_aijslidetoggle/jquery.js</filename>
+	<filename plugin="aijslidetoggle">plugin_aijslidetoggle/aijslidetoggle.js</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_content_aijslidetoggle.ini</language>
+  </languages>
+</install>
